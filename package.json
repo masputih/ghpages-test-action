@@ -12,7 +12,7 @@
     "prepare": "node .husky/install.mjs",
     "test:e2e": "playwright test",
     "test": "vitest",
-    "deploy": "npm run build && git commit -am 'deploy' && git push"
+    "deploy": "npm run build && git commit -am 'build & deploy' && git push"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
